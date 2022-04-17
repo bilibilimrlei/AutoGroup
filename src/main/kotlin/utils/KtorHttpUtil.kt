@@ -14,13 +14,13 @@ object KtorHttpUtil {
         return client.get {
             url(zuanUrl.toString())
             header("Accept", "*/*")
-            header("Referer", "https://zuanbot.com/")
+            header("Referer", "https://fun.886.be/")
             header("User-Agent", ua)
         }
     }
 
     init {
-        zuanUrl.append("https://zuanbot.com/api.php?lang=zh_cn")
+        zuanUrl.append("https://fun.886.be/api.php?lang=zh_cn")
         if (!maxZuanLevel) zuanUrl.append("&level=min")
     }
 }

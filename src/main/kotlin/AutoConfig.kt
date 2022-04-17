@@ -160,10 +160,8 @@ object AutoConfig : AutoSavePluginConfig("AutoConfig") {
     @ValueDescription("机器人说话叠词词的概率")
     val reduplicate: Int by value(0)
 
-/*
     @ValueDescription("是否在禁言期间持续发送消息给操作人以及发送的消息")
     val keepSendMessageWhenMuted: Boolean by value(false)
     val initiativeMessage: Set<String> by value(setOf("快点给我解禁"))
 
- */
 }
